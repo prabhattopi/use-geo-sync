@@ -1,0 +1,43 @@
+{
+  "name": "use-geo-sync",
+  "version": "1.0.3",
+  "description": "A React Native/Expo headless toolkit for background location sync and queuing.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "location",
+    "background-sync",
+    "geolocation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhattopi/use-geo-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prabhattopi/use-geo-sync/issues"
+  },
+  "homepage": "https://github.com/prabhattopi/use-geo-sync#readme",
+  "peerDependencies": {
+    "expo-location": "^16.0.0",
+    "expo-task-manager": "^11.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "expo-location": "^55.1.6",
+    "expo-task-manager": "^55.0.12",
+    "react": "^19.2.4",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}
