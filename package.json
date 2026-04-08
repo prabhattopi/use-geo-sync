@@ -1,10 +1,13 @@
 {
   "name": "use-geo-sync",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React Native/Expo headless toolkit for background location sync and queuing.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
